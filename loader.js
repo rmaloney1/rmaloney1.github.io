@@ -1,4 +1,4 @@
 const myLoader = ({ src, width, quality }) => {
-  return `http://localhost:5000${process.env.basePath}${src}`;
+  return `${process.env.url}${process.env.basePath}${src}`;
 };
 export default myLoader;

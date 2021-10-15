@@ -1,13 +1,14 @@
 module.exports = {
-  basePath: "/out",
-  assetPrefix: "/out/",
+  basePath: "/aboutme",
+  assetPrefix: "/aboutme/",
   reactStrictMode: true,
   images: {
     loader: "imgix",
     path: "",
-    domains: ["localhost", "wikimedia.org"],
+    domains: ["localhost", "wikimedia.org", "rmaloney1.github.io"],
   },
   env: {
-    basePath: "/out",
+    basePath: "/aboutme",
+    url: "https://rmaloney1.github.io",
   },
 };

@@ -9,7 +9,7 @@ module.exports = {
       "localhost",
       "wikimedia.org",
       "rmaloney1.github.io",
-      "rohanmaloney.com",
+      "www.rohanmaloney.com",
     ],
   },
   env: {

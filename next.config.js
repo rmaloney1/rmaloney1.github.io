@@ -1,6 +1,7 @@
+const path = "";
 module.exports = {
-  basePath: "",
-  assetPrefix: "/",
+  basePath: path,
+  assetPrefix: path + "/",
   reactStrictMode: true,
   images: {
     loader: "imgix",
@@ -13,7 +14,7 @@ module.exports = {
     ],
   },
   env: {
-    basePath: "",
-    url: "https://www.rohanmaloney.com",
+    basePath: path,
+    url: "https://rmaloney1.github.io",
   },
 };

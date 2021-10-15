@@ -6,7 +6,7 @@ import Box from "@mui/material/Box";
 import * as React from "react";
 import { styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
-import Image from "next/image";
+import Image from "@components/Image";
 import { Typography } from "@mui/material";
 
 import Experience from "@components/Experience";
@@ -40,7 +40,12 @@ const Homepage = () => {
             position: "relative",
           }}
         >
-          <Image layout="fill" src="/sunswift_photo.jpg" objectFit="cover" />
+          <Image
+            layout="fill"
+            src="/sunswift_photo.jpg"
+            objectFit="cover"
+            alt="photo of me"
+          />
         </Grid>
         <Grid
           container

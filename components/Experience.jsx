@@ -5,7 +5,7 @@ import ListItemAvatar from "@mui/material/ListItemAvatar";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
-import Image from "next/image";
+import Image from "@components/Image";
 import Link from "@mui/material/Link";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 
@@ -31,7 +31,7 @@ export default function experience({ name, url, date, image, full, points }) {
           position: "relative",
         }}
       >
-        <Image layout="fill" objectFit="contain" src={image} />
+        <Image layout="fill" objectFit="contain" src={image} alt={full} />
       </Grid>
       <Grid item xs={7}>
         <Link

@@ -17,6 +17,7 @@ export default function experience({ name, url, date, image, full, points }) {
       xs={11}
       spacing={4}
       justifyContent="space-around"
+      alignItems="flex-start"
       sx={{
         // position: "absolute",
         // inset: 0,
@@ -26,14 +27,17 @@ export default function experience({ name, url, date, image, full, points }) {
     >
       <Grid
         item
+        xs={12}
+        md={4}
         sx={{
-          width: "40%",
           position: "relative",
+          padding: "0 !important",
+          height: "100px",
         }}
       >
         <Image layout="fill" objectFit="contain" src={image} alt={full} />
       </Grid>
-      <Grid item xs={7}>
+      <Grid item xs={12} md={8} sx={{ padding: "0 !important" }}>
         <Link
           href={url}
           target="_blank"

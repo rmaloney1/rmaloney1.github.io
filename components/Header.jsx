@@ -27,6 +27,10 @@ navLinks.push(
   {
     title: "linkedin",
     path: "https://linkedin.com/in/rohan-maloney",
+  },
+  {
+    title: "resume (pdf)",
+    path: `${process.env.url}${process.env.basePath}/RohanMaloney_resume.pdf`,
   }
 );
 

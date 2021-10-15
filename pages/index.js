@@ -66,6 +66,7 @@ const Homepage = () => {
             alignItems: "center",
             justifyContent: "center",
             padding: "0 10%",
+            paddingTop: { md: "0", xs: "60%" },
           }}
         >
           <Typography

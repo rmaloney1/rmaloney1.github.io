@@ -15,6 +15,6 @@ module.exports = {
   },
   env: {
     basePath: path,
-    url: "https://rmaloney1.github.io",
+    url: "https://www.rohanmaloney.com",
   },
 };
